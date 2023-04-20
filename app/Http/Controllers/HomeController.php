@@ -6,12 +6,12 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function__construct()
+    public function __construct()
     {
     	$this->middleware('auth');
     }
     //show application deshboard
-    @return\Illuminate\Http\Respone
+   // @return\Illuminate\Http\Respone
 
     public function index()
     {
